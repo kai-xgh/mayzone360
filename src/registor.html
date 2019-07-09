@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/registor.css">
+</head>
+
+<body>
+    <div class="si-top">
+
+        <a href="http://www.mayzone360.com" title="美逊商城mayzone360.com-济南办公用品配送|网上商城|免费送货上门">
+            <img alt="美逊商城mayzone360.com-济南办公用品配送|网上商城|免费送货上门" src="img/si-logo.png" width="263px" height="36px" />
+        </a>
+        <span class="ospan">我已经注册，马上
+            <a href="http://www.mayzone360.com/shop/index.php?act=login&op=index">登陆&gt;</a>
+        </span>
+        <div class="clearfloat"></div>
+        <div class="si-container">
+            <fieldset style="border: 0px">
+                <legend>设置用户信息</legend>
+                <form action=" http://localhost/mayzone/php/reg.php" method="post">
+                    <p>
+                        <label for="">用　户　名：</label><input type="text" class="input1" name="username" placeholder="用户名，可由英文、数字组成"><span class="span1"></span>
+                    </p>
+                    <p>
+                        <div>
+                            <label for="">请输入密码：</label><input type="password" class="input2" name="password" placeholder="请设置6-20位密码，可由英文、数字及标点符号组成"><span class="span2"></span>
+                        </div>
+                        <div class="red" style="margin-left: 96px"></div>
+                        <div class="yellow"></div>
+                        <div class="green"></div>
+                        <div class="ruo" style="margin-left: 96px">弱</div>
+                        <div class="zhong">中</div>
+                        <div class="qiang">强</div>
+                    </p>
+
+                    <p>
+                        <label for="">请确认密码：</label><input type="password" name=" surepassword" class="input3" placeholder="请再次输入密码"><span class="span3"></span>
+                    </p>
+                    <p> <input class="input4" style="margin-left:96px;width: 400px;height: 40px; background: red ;border: none;color:white" type="submit" name=" " id=" " value="提交注册 "></p>
+
+
+                </form>
+            </fieldset>
+
+
+        </div>
+
+    </div>
+
+    <script src="script/thirdplugins/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="script/thirdplugins/jquery.validate.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="script/js/ajax.js"></script>
+    <script src="script/js/registor.js"></script>
+
+
+</body>
+
+</html>

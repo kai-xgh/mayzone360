@@ -1,0 +1,101 @@
+body,
+span,
+a,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #fafafa;
+    font-size: 16px;
+    font-family: "微软雅黑";
+}
+
+a {
+    color: #555;
+}
+
+.clearfloat {
+    clear: both
+}
+
+.si-top {
+    position: relative;
+    width: 990px;
+    height: 120px;
+    margin: 0px auto;
+    vertical-align: middle;
+}
+
+.si-top img {
+    margin-top: 60px;
+    width: 264px;
+    height: 36px;
+    float: left;
+}
+
+.si-top .ospan {
+    position: absolute;
+    display: block;
+    right: 0;
+    font-size: 14px;
+    font-weight: 600;
+    bottom: 0;
+}
+
+
+/* 注册框 */
+
+.si-container {
+    padding: 30px;
+    width: 990px;
+    margin: 0 auto;
+    vertical-align: middle;
+    background-color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.si-container form {
+    width: 500px;
+    margin: 30px auto
+}
+
+.si-container form input {
+    width: 400px;
+    height: 40px;
+}
+
+.span1,
+.span2,
+.span3 {
+    width: 300px;
+    height: 15px;
+    margin-left: 96px;
+    padding-left: 15px;
+}
+
+.red,
+.green,
+.yellow {
+    float: left;
+    width: 100px;
+    height: 15px;
+    margin: 18px;
+    background: #999;
+}
+
+.ruo,
+.zhong,
+.qiang {
+    padding-left: 43px;
+    float: left;
+    width: 57px;
+    height: 15px;
+    margin: 0 18px 18px 18px;
+}
