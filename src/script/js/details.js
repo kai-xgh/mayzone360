@@ -18,9 +18,7 @@
 
     // 放大镜
 
-    // $('.sf').width($('.spic').width() * $('.bf').width() / $('.bpic').width());
-    // $('.sf').height($('.spic').height() * $('.bf').height() / $('.bpic').height());
-    // var bili = $('#bpic').width() / $('#spic').width();
+
 
     // 求宽高 
     $sf.width($spic.width() * $bf.width() / $bpic.width());

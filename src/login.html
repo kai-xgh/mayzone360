@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <div id="mz_login_header">
+        <div class="mz_nm99">
+            <a href="http://www.mayzone360.com" title="" class="mz_fl"><img src="http://www.mayzone360.com/shop/templates/default/images/member/mz_member_Logo.jpg"></a>
+            <span class="mz_fl">•&nbsp;
+                  欢 迎 登 录
+           </span>
+            <a href="http://www.mayzone360.com/shop" class="mz_fr mz_back_index">返回首页</a>
+            <div class="mz_clear"></div>
+        </div>
+    </div>
+
+    <div id="mz_member_main">
+        <div class="mz_nm99">
+
+            <div class="mz_fr mz_member_mainRight">
+                <h3>用户登录</h3>
+
+                <form id="login_form" method="post" class="bg">
+                    <input type="hidden" name="formhash" value="s7oW9gMAXuK6bhrfauh65W2STwGt3xc"> <input type="hidden" name="form_submit" value="ok">
+                    <input name="nchash" type="hidden" value="">
+                    <div class="mz_login_content">
+
+                        <p class="mz_login_contentInfo">
+                            <span>用户名</span>
+                            <input type="text" class="text valid" autocomplete="off" name="user_name" id="user_name" placeholder="用户名/邮箱/手机号">
+                        </p>
+                        <div class="mz_clear"></div>
+                        <p></p>
+                        <p class="mz_login_contentInfo">
+                            <span>密&nbsp;&nbsp;&nbsp;码</span>
+                            <input type="password" class="text error" name="password" autocomplete="off" id="password"><br>
+                            <label for="password" class="error" style="visibility: hidden">密码不能为空</label></p>
+                        <div class="mz_clear"></div>
+                        <p></p>
+
+
+                        <p class="mz_login_contentSub">
+                            <input type="hidden" value="/shop/index.php?act=cart" name="ref_url">
+                            <input type="submit" class="submit" value="登&nbsp;&nbsp;&nbsp;录" name="Submit">
+                        </p>
+                        <p class="mz_login_contentMore">
+                            <a class="forget mz_fr" href="index.php?act=login&amp;op=forget_password">忘记密码？</a>
+                            <span class="mz_fl">还不是本站会员？立即</span>
+                            <a title="" href="index.php?act=login&amp;op=register&amp;ref_url=http%3A%2F%2Fwww.mayzone360.com%2Fshop%2Findex.php%3Fact%3Dlogin%26ref_url%3D%252Fshop%252Findex.php%253Fact%253Dcart" class="register mz_fl">注册</a>
+                        </p>
+                        <div class="mz_clear"></div>
+                        <p></p>
+                    </div>
+                </form>
+
+            </div>
+            <div class="mz_fl mz_member_mainLeft">
+                <img src="http://www.mayzone360.com/data/upload/shop/login/1.jpg">
+            </div>
+
+            <div class="mz_clear"></div>
+        </div>
+    </div>
+
+    <script src="script/thirdplugins/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="script/thirdplugins/jquery.validate.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="script/js/ajax.js"></script>
+    <script src="script/js/login.js"></script>
+</body>
+
+</html>

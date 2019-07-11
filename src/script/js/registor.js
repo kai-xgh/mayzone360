@@ -271,8 +271,8 @@
 
 
 
-    let usernameflag = true; //检测用户名是否重复的标记，阻止提交。
-    //存储接口的公共路径。
+    let usernameflag = true;
+
 
     const phpurl = 'http://localhost/mayzone/php/';
     //失去焦点将用户名传给后端。
@@ -285,7 +285,7 @@
                 }
             })
             .then(function(d) {
-                if (!d) { //没有重复
+                if (!d) {
                     errorinfo.innerHTML = '√';
                     errorinfo.style.color = 'green';
                     usernameflag = true;
@@ -297,7 +297,7 @@
             });
     }
 
-    //2.点击提交注册按钮将数据提交到数据库
+    //点击提交注册按钮将数据提交到数据库
     $ainput4.onclick = function() {
         if (!usernameflag) {
             $ainput1.focus();

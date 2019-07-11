@@ -1,0 +1,244 @@
+html,
+body,
+div,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+p,
+blockquote,
+fieldset,
+input {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: 12px/20px "微软雅黑", "宋体", Arial, Verdana, "Lucida Grande", "Lucida Sans Unicode", Helvetica, sans-serif;
+    color: #666;
+    background: #FFF none repeat scroll 0 0;
+    min-width: 1200px;
+}
+
+#mz_login_header {
+    height: 97px;
+    background: #f5f5f5;
+}
+
+.mz_nm99 {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+#mz_login_header a,
+#mz_login_header span {
+    display: block;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+    display: block;
+}
+
+#mz_login_header span {
+    line-height: 97px;
+    margin-left: 15px;
+    font-family: "微软雅黑";
+    font-size: 24px;
+    color: #000;
+}
+
+#mz_login_header a.mz_back_index {
+    height: 25px;
+    padding-left: 27px;
+    background: url(../img/mz_member_BackIndex\ \(1\).jpg) no-repeat 0px 0px;
+    line-height: 25px;
+    margin-top: 37px;
+}
+
+.mz_clear {
+    clear: both !important;
+}
+
+#mz_home_top {
+    display: none;
+}
+
+.mz_login_contentInfo label.error {
+    display: block;
+    clear: both;
+    background: url(../img/error.png) no-repeat 0px 2px;
+    padding-left: 18px;
+    margin-left: 50px;
+}
+
+#mz_member_main {
+    background: url(../img/mz_member_mainBG.jpg) repeat-x 0px 0px;
+    padding: 115px 0px;
+    background-color: #ff3b3a;
+}
+
+.mz_nm99 {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+#mz_member_main .mz_member_mainRight {
+    min-height: 320px;
+    width: 370px;
+    border: 1px solid #dcdcdc;
+    overflow: hidden;
+    background-color: #fff;
+    padding-top: 20px;
+}
+
+#mz_member_main .mz_member_mainRight h3 {
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 39px;
+    font-size: 18px;
+    color: #000;
+    font-family: "微软雅黑";
+}
+
+#mz_member_main .mz_member_mainRight .mz_login_content p.mz_login_contentInfo span {
+    height: 38px;
+    border: 1px solid #dcdcdc;
+    border-right: none;
+    line-height: 38px;
+    width: 49px;
+    text-align: center;
+    font-family: "微软雅黑";
+    border-radios: 2px;
+}
+
+#mz_member_main .mz_member_mainRight .mz_login_content p.mz_login_contentInfo input {
+    height: 38px;
+    line-height: 38px;
+    width: 232px;
+    padding: 0px 3px;
+    border: 1px solid #dcdcdc;
+    color: #444;
+    border-radios: 2px;
+}
+
+#mz_member_main .mz_member_mainRight .mz_login_content p {
+    padding-left: 40px;
+}
+
+#mz_member_main .mz_member_mainRight .mz_login_content p {
+    padding-left: 40px;
+}
+
+#mz_member_main .mz_member_mainRight .mz_login_content p.mz_login_contentSub input {
+    background: url(../img/mz_member_LoginBg.jpg) no-repeat 0px 0px;
+    height: 42px;
+    width: 291px;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    border: none;
+    color: #fff;
+}
+
+#mz_member_main .mz_member_mainRight .mz_login_content p.mz_login_contentMore {
+    padding-right: 45px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #2292d4;
+}
+
+#mz_member_main .mz_member_mainRight .mz_login_content p {
+    padding-left: 40px;
+}
+
+#mz_member_main .mz_member_mainRight .mz_login_content p.mz_login_contentMore .forget {
+    color: #118acf;
+    margin-left: 14px;
+}
+
+#mz_member_main .mz_member_mainRight .mz_login_content p.mz_login_contentMore span {
+    color: #000;
+}
+
+.mz_fl {
+    float: left;
+}
+
+#mz_member_main .mz_member_mainRight .mz_login_content p.mz_login_contentMore .register {
+    color: #b00000;
+}
+
+#mz_member_main .mz_member_mainLeft,
+#mz_member_main .mz_member_mainLeft img {
+    height: 340px;
+    width: 510px;
+    overflow: hidden;
+}
+
+#mz_member_main .mz_member_mainLeft,
+#mz_member_main .mz_member_mainLeft img {
+    height: 340px;
+    width: 510px;
+    overflow: hidden;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+    display: block;
+}
+
+#mz_member_main .mz_member_mainRight {
+    min-height: 320px;
+    width: 370px;
+    border: 1px solid #dcdcdc;
+    overflow: hidden;
+    background-color: #fff;
+    padding-top: 20px;
+}
+
+.mz_fr {
+    float: right;
+}
+
+#mz_member_main .mz_member_mainRight .mz_login_content p.mz_login_contentInfo input,
+#mz_member_main .mz_member_mainRight .mz_login_content p.mz_login_contentInfo span {
+    float: left;
+}
+
+label.error {
+    color: #F30;
+}
+
+label {
+    cursor: default;
+}
+
+#mz_member_main .mz_member_mainRight .mz_login_content p {
+    padding-left: 40px;
+}
+
+input,
+select,
+textarea {
+    font: 12px/20px Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+}
+
+input,
+button,
+select,
+textarea {
+    outline: none;
+}
